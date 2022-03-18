@@ -32,4 +32,3 @@ Functional Requirements:
 ●	The app will tell the congratulate the user and show how many guesses it took the user to guess the number correctly upon getting the number right
 ●	The user will be able to enter their name after winning the game
 ●	The user's score of how many times they have guessed the number correctly will be displayed after the game ends
-
