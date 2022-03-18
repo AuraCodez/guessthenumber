@@ -25,13 +25,7 @@ Functional Requirements:
 
 ●	The user will be greeted with a title screen where they can press the play button to choose a difficulty or press leaderboard to view the leaderboard
 
-●	The user will be able to choose between three difficulties that affect the number range they will have to guess from:
-
-  ○	Easy (1-10)
-  
-  ○	Medium (1-100)
-  
-  ○	Hard (1-1000)
+●	The user will be able to choose between three difficulties that affect the number range they will have to guess from: Easy (1-10),Medium (1-100), and Hard (1-1000)
   
 ●	The user will be able to choose between three leaderboards to view, one for each of the three difficulty levels
 
