@@ -1,4 +1,4 @@
-# guessthenumber
+# Number Guessing Game
 Name of the Team: 
 Fantastic Four
 
