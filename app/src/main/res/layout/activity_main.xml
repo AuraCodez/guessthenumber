@@ -3,65 +3,76 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#33DFFF"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#2196F3">
 
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="342dp"
-        android:layout_height="120dp"
+        android:id="@+id/lblTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="Guess the Number"
         android:textColor="#0E0E0E"
         android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="134dp"
-        android:layout_height="106dp"
+        android:id="@+id/btnStart"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
         android:backgroundTint="#39CC29"
         android:text="Start"
         android:textColor="#0B0A0A"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnLeaderboard"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/lblTitle"
+        app:layout_constraintVertical_bias="0.45" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="154dp"
-        android:layout_height="91dp"
-        android:layout_marginEnd="88dp"
+        android:id="@+id/btnLeaderboard"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#FF9800"
         android:text="Leaderboard"
-        android:textColor="#0B0A0A"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="116dp"
-        android:layout_height="93dp"
-        android:layout_marginEnd="20dp"
-        android:backgroundTint="#FF9800"
-        android:text="QUIT"
         android:textColor="#0B0A0A"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/btnQuit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF9800"
+        android:text="Quit"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnLeaderboard" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
