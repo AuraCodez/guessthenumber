@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuessTheNumber">
         <activity
+            android:name=".HardMode"
+            android:exported="false" />
+        <activity
+            android:name=".MediumMode"
+            android:exported="false" />
+        <activity
+            android:name=".EasyMode"
+            android:exported="false" />
+        <activity
             android:name=".ModeSelection"
             android:exported="false" />
         <activity
