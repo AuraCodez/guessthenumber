@@ -24,7 +24,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnBack" />
 
     <Button
-        android:id="@+id/btnEasy"
+        android:id="@+id/btnStartEasy"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/btnMedium"
+        android:id="@+id/btnStartMedium"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
@@ -53,10 +53,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnEasy" />
+        app:layout_constraintTop_toBottomOf="@+id/btnStartEasy" />
 
     <Button
-        android:id="@+id/btnHard"
+        android:id="@+id/btnStartHard"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMedium" />
+        app:layout_constraintTop_toBottomOf="@+id/btnStartMedium" />
 
     <Button
         android:id="@+id/btnBack"
