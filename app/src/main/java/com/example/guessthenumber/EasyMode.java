@@ -52,14 +52,15 @@ public class EasyMode extends AppCompatActivity {
             lblEasyResponse.setText("Please enter a whole number!");
         } else if (NumberGuessingGameModel.isWholeNumber(Double.parseDouble(txtEasyGuess.getText().toString())) == false) {
             lblEasyResponse.setText("Please enter a whole number!");
+        } else if (Integer.parseInt(txtEasyGuess.getText().toString()) <= 1 && Integer.parseInt(txtEasyGuess.getText().toString()) >= 10) {
+            lblEasyResponse.setText("Please enter a whole number in the range!");
         } else {
             if (Integer.parseInt(txtEasyGuess.getText().toString()) == randomNum) {
                 lblEasyResponse.setText("Correct, you win!");
-                guessCounter++;
             } else {
                 lblEasyResponse.setText("Incorrect, try again!");
-                guessCounter++;
             }
+            guessCounter++;
         }
     }
 }
