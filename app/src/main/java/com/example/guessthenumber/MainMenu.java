@@ -10,11 +10,12 @@ import android.widget.Button;
 public class MainMenu extends AppCompatActivity {
     private Button btnStart;
     private Button btnQuit;
+    private Button btnCredits;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_menu);
 
         btnStart = findViewById(R.id.btnStart);
         btnStart.setOnClickListener(new View.OnClickListener() {
@@ -33,10 +34,23 @@ public class MainMenu extends AppCompatActivity {
                 System.exit(1);
             }
         });
+
+        btnCredits = findViewById(R.id.btnCredits);
+        btnCredits.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openCredits();
+            }
+        });
     }
 
     public void openModeSelection() {
         Intent intent = new Intent(this, ModeSelection.class);
+        startActivity(intent);
+    }
+
+    public void openCredits() {
+        Intent intent = new Intent(this, Credits.class);
         startActivity(intent);
     }
 }

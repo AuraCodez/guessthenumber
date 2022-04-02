@@ -9,14 +9,15 @@ import android.widget.Button;
 
 
 public class Credits extends AppCompatActivity {
-    private Button btnCredits;
+    private Button btnCreditsBack;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.credits);
+        setContentView(R.layout.activity_credits);
 
-        btnCredits = findViewById(R.id.btnCredits);
-        btnCredits.setOnClickListener(new View.OnClickListener() {
+        btnCreditsBack = findViewById(R.id.btnCreditsBack);
+        btnCreditsBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openModeSelection();
@@ -28,4 +29,3 @@ public class Credits extends AppCompatActivity {
         startActivity(intent);
     }
 }
-
