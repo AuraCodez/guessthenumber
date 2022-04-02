@@ -20,12 +20,12 @@ public class Credits extends AppCompatActivity {
         btnCreditsBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openModeSelection();
+                openMainMenu();
             }
         });
     }
-    public void openModeSelection() {
-        Intent intent = new Intent(this, ModeSelection.class);
+    public void openMainMenu() {
+        Intent intent = new Intent(this, MainMenu.class);
         startActivity(intent);
     }
 }

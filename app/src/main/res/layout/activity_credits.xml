@@ -8,32 +8,6 @@
     tools:context=".Credits">
 
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:gravity="center"
-        android:text="Imran Mamun"
-        android:textColor="#3FEBE8"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:gravity="center"
-        android:text="Ryan Loi"
-        android:textColor="#3FEBE8"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
     <Button
         android:id="@+id/btnCreditsBack"
         android:layout_width="125dp"
@@ -78,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/lblCreditsTitle" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/lblCreditsFarhan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -91,7 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/lblCreditsNameHeader" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/lblCreditsAahish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -101,7 +75,33 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/lblCreditsFarhan" />
+
+    <TextView
+        android:id="@+id/lblCreditsRyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Ryan Loi"
+        android:textColor="#3FEBE8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblCreditsAahish" />
+
+    <TextView
+        android:id="@+id/lblCreditsImran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Imran Mamun"
+        android:textColor="#3FEBE8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblCreditsRyan" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
