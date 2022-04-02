@@ -10,7 +10,6 @@ import android.widget.Button;
 public class EasyMode extends AppCompatActivity {
     private Button btnEasyBack;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
