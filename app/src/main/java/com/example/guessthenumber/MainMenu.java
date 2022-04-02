@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity {
     private Button btnStart;
+    private Button btnQuit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,15 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openModeSelection();
+            }
+        });
+
+        btnQuit = findViewById(R.id.btnQuit);
+        btnQuit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                System.exit(0);
             }
         });
     }
