@@ -9,13 +9,7 @@ import android.widget.Button;
 
 public class EasyMode extends AppCompatActivity {
     private Button btnEasyBack;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> ae718a51f766048a36fbc5842ddcb3ea1865fc41
-=======
->>>>>>> ae718a51f766048a36fbc5842ddcb3ea1865fc41
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
