@@ -3,13 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/farha/OneDrive/Desktop/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_easy_mode.xml" value="0.25" />
-        <entry key="..\:/Users/farha/OneDrive/Desktop/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_hard_mode.xml" value="0.25" />
-        <entry key="..\:/Users/farha/OneDrive/Desktop/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_medium_mode.xml" value="0.25" />
+        <entry key="..\:/Users/dankm/AndroidStudioProjects/guessthenumber-main/app/src/main/res/layout/activity_easy_mode.xml" value="0.4" />
         <entry key="..\:/Users/shado/Desktop/uni shiz/EECS1022/AndroidStudioProjects/NumberGuessingGame/app/src/main/res/layout/activity_main.xml" value="0.42916666666666664" />
         <entry key="..\:/Users/shado/Desktop/uni shiz/EECS1022/AndroidStudioProjects/NumberGuessingGame/app/src/main/res/layout/activity_mode_selection.xml" value="0.42916666666666664" />
         <entry key="..\:/Users/shado/Desktop/uni shiz/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_easy_mode.xml" value="0.42916666666666664" />
+        <entry key="..\:/Users/shado/Desktop/uni shiz/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_hard_mode.xml" value="0.42916666666666664" />
         <entry key="..\:/Users/shado/Desktop/uni shiz/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_main.xml" value="0.42916666666666664" />
+        <entry key="..\:/Users/shado/Desktop/uni shiz/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_medium_mode.xml" value="0.42916666666666664" />
         <entry key="..\:/Users/shado/Desktop/uni shiz/EECS1022/Project/NumberGuessingGame/app/src/main/res/layout/activity_mode_selection.xml" value="0.42916666666666664" />
       </map>
     </option>
