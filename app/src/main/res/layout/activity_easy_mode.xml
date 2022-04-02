@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
 
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="50dp"
         android:gravity="center"
         android:text="Enter a number between 1-10"
         android:textColor="#25f5ac"
@@ -43,7 +43,7 @@
         android:layout_height="75dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="#0bd644"
         android:text="GUESS!"
         android:textColor="#1d1e1f"
@@ -54,20 +54,21 @@
 
     <EditText
         android:id="@+id/txtEasyGuess"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
 
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:ems="10"
         android:gravity="center"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="Enter your guess here!"
         app:layout_constraintBottom_toTopOf="@+id/btnEasyGuess"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblEasyEnterNum"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:id="@+id/lblEasyResponse"
