@@ -14,4 +14,21 @@ public class NumberGuessingGameModel {
     public static int randomNumHard() {
         return (int) (Math.random() * 1000) + 1;
     }
+
+    public static boolean isNumber(String str) {
+        try {
+            Double.parseDouble(str);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+
+    public static boolean isWholeNumber(double num) {
+        if ((int) num == num) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
