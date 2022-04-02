@@ -14,6 +14,7 @@ public class EasyMode extends AppCompatActivity {
     private Button btnEasyGuess;
     private EditText txtEasyGuess;
     private TextView lblEasyResponse;
+    private TextView lblEasyGuessCounter;
     private int randomNum = NumberGuessingGameModel.randomNumEasy();
     private int guessCounter = 0;
 
@@ -40,6 +41,9 @@ public class EasyMode extends AppCompatActivity {
 
         txtEasyGuess = findViewById(R.id.txtEasyGuess);
         lblEasyResponse = findViewById(R.id.lblEasyResponse);
+        lblEasyGuessCounter = findViewById(R.id.lblEasyGuessCounter);
+
+        lblEasyGuessCounter.setText("Guesses: " + guessCounter);
     }
 
     public void openModeSelection() {
@@ -49,18 +53,27 @@ public class EasyMode extends AppCompatActivity {
 
     public void enterGuess() {
         if (NumberGuessingGameModel.isNumber(txtEasyGuess.getText().toString()) == false) {
-            lblEasyResponse.setText("Please enter a whole number!");
+            lblEasyResponse.setText("Please enter a number!");
         } else if (NumberGuessingGameModel.isWholeNumber(Double.parseDouble(txtEasyGuess.getText().toString())) == false) {
             lblEasyResponse.setText("Please enter a whole number!");
-        } else if (Integer.parseInt(txtEasyGuess.getText().toString()) <= 1 || Integer.parseInt(txtEasyGuess.getText().toString()) >= 10) {
-            lblEasyResponse.setText("Please enter a whole number in the range!");
+        } else if (Integer.parseInt(txtEasyGuess.getText().toString()) < 1 || Integer.parseInt(txtEasyGuess.getText().toString()) > 10) {
+            lblEasyResponse.setText("Please enter a number between 1 and 10!");
         } else {
-            if (Integer.parseInt(txtEasyGuess.getText().toString()) == randomNum) {
-                lblEasyResponse.setText("Correct, you win!");
-            } else {
-                lblEasyResponse.setText("Incorrect, try again!");
-            }
             guessCounter++;
+            lblEasyGuessCounter.setText("Guesses: " + guessCounter);
+            if (Integer.parseInt(txtEasyGuess.getText().toString()) == randomNum) {
+                if (guessCounter == 1) {
+                    lblEasyResponse.setText("Congratulations! You correctly guessed the number in just " + guessCounter + " guess!");
+                } else {
+                    lblEasyResponse.setText("Congratulations! You correctly guessed the number in " + guessCounter + " guesses!");
+                }
+                txtEasyGuess.setFocusable(false);
+                btnEasyGuess.setEnabled(false);
+            } else if (Integer.parseInt(txtEasyGuess.getText().toString()) < randomNum) {
+                lblEasyResponse.setText("Incorrect, try a bigger number!");
+            } else if (Integer.parseInt(txtEasyGuess.getText().toString()) > randomNum) {
+                lblEasyResponse.setText("Incorrect, try a smaller number!");
+            }
         }
     }
 }
