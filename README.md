@@ -3,8 +3,6 @@ Name of the Team:
 
 Fantastic Four
 
-Members of the Team (Grace had to leave):
-
 Farhan Ahmed afarhan3@my.yorku.ca Lab 04 Section N
 
 Aahish Pamulapati aahish@my.yorku.ca  Lab 04 Section N 
