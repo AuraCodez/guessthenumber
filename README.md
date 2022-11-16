@@ -3,11 +3,11 @@ Name of the Team:
 
 Fantastic Four
 
-Farhan Ahmed afarhan3@my.yorku.ca Lab 04 Section N
+Farhan Ahmed afarhan3@my.yorku.ca 
 
-Ryan Loi ryanl123@my.yorku.ca Lab04 Section M
+Ryan Loi ryanl123@my.yorku.ca
 
-Aahish Pamulapati aahish@my.yorku.ca  Lab 04 Section N 
+Aahish Pamulapati aahish@my.yorku.ca  
 
 Title of the Project:
 
