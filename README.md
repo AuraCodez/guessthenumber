@@ -5,11 +5,7 @@ Fantastic Four
 
 Farhan Ahmed afarhan3@my.yorku.ca Lab 04 Section N
 
-Aahish Pamulapati aahish@my.yorku.ca  Lab 04 Section N 
-
 Ryan Loi ryanl123@my.yorku.ca Lab04 Section M
-
-Imran Mamun imran141@my.yorku.ca Lab04 Section M
 
 Title of the Project:
 
