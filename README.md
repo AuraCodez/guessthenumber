@@ -7,8 +7,6 @@ Farhan Ahmed afarhan3@my.yorku.ca
 
 Ryan Loi ryanl123@my.yorku.ca
 
-Aahish Pamulapati aahish@my.yorku.ca  
-
 Title of the Project:
 
 Number Guessing Game
