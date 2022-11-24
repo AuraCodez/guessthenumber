@@ -3,9 +3,9 @@ Name of the Team:
 
 Fantastic Four
 
-Farhan Ahmed afarhan3@my.yorku.ca 
+Farhan Ahmed afarhan3@my.yorku.ca
 
-Ryan K. Loi
+Ryan K. Loi ryanlol.york@gmail.com
 
 Title of the Project:
 
