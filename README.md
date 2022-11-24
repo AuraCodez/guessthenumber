@@ -5,7 +5,7 @@ Fantastic Four
 
 Farhan Ahmed afarhan3@my.yorku.ca 
 
-Ryan Loi ryanl123@my.yorku.ca
+Ryan K. Loi
 
 Title of the Project:
 
