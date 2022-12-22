@@ -7,6 +7,11 @@ Title of the Project:
 
 Number Guessing Game
 
+Members:
+
+Ryan K. Loi
+Farhan Ahmed
+
 Short Description of the Project:
 
 We will be building a mobile game that will have the user guess a number between 1 and X. X will be determined by the game difficulty selected by the user; 10 for easy mode, 100 for medium mode and 1000 for hard mode. Upon choosing the difficulty the user will be asked for the amount of attempts they will have to guess the number correctly, the game will count how many attempts it took for the user to guess the number correctly. Once they guess correctly the user will be congratulated and they will be asked for their name which will be added to a leaderboard that shows the difficulty and amount of guesses they needed. The user’s score of how many times they’ve guessed the number correctly will be displayed after the game ends.
