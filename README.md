@@ -9,8 +9,10 @@ Number Guessing Game
 
 Members:
 
-Ryan K. Loi
-Farhan Ahmed
+Ryan K. Loi ryanlol.york@gmail.com
+
+Farhan Ahmed afarhan3@my.yorku.ca
+
 
 Short Description of the Project:
 
