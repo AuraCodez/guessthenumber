@@ -3,10 +3,6 @@ Name of the Team:
 
 Fantastic Four
 
-Farhan Ahmed afarhan3@my.yorku.ca
-
-Ryan K. Loi ryanlol.york@gmail.com
-
 Title of the Project:
 
 Number Guessing Game
