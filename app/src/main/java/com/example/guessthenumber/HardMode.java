@@ -52,9 +52,9 @@ public class HardMode extends AppCompatActivity {
     }
 
     public void enterGuess() {
-        if (NumberGuessingGameModel.isNumber(txtHardGuess.getText().toString()) == false) {
+        if (!NumberGuessingGameModel.isNumber(txtHardGuess.getText().toString())) {
             lblHardResponse.setText("Please enter a number!");
-        } else if (NumberGuessingGameModel.isWholeNumber(Double.parseDouble(txtHardGuess.getText().toString())) == false) {
+        } else if (!NumberGuessingGameModel.isWholeNumber(Double.parseDouble(txtHardGuess.getText().toString()))) {
             lblHardResponse.setText("Please enter a whole number!");
         } else if (Integer.parseInt(txtHardGuess.getText().toString()) < 1 || Integer.parseInt(txtHardGuess.getText().toString()) > 1000) {
             lblHardResponse.setText("Please enter a number between 1 and 1000!");
