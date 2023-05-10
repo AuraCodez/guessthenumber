@@ -24,20 +24,10 @@ public class MediumMode extends AppCompatActivity {
         setContentView(R.layout.activity_medium_mode);
 
         btnMediumBack = findViewById(R.id.btnMediumBack);
-        btnMediumBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openModeSelection();
-            }
-        });
+        btnMediumBack.setOnClickListener(view -> openModeSelection());
 
         btnMediumGuess = findViewById(R.id.btnMediumGuess);
-        btnMediumGuess.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                enterGuess();
-            }
-        });
+        btnMediumGuess.setOnClickListener(view -> enterGuess());
 
         txtMediumGuess = findViewById(R.id.txtMediumGuess);
         lblMediumResponse = findViewById(R.id.lblMediumResponse);

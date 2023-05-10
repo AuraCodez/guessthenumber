@@ -24,20 +24,10 @@ public class HardMode extends AppCompatActivity {
         setContentView(R.layout.activity_hard_mode);
 
         btnHardBack = findViewById(R.id.btnHardBack);
-        btnHardBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openModeSelection();
-            }
-        });
+        btnHardBack.setOnClickListener(view -> openModeSelection());
 
         btnHardGuess = findViewById(R.id.btnHardGuess);
-        btnHardGuess.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                enterGuess();
-            }
-        });
+        btnHardGuess.setOnClickListener(view -> enterGuess());
 
         txtHardGuess = findViewById(R.id.txtHardGuess);
         lblHardResponse = findViewById(R.id.lblHardResponse);

@@ -18,12 +18,7 @@ public class Credits extends AppCompatActivity {
         setContentView(R.layout.activity_credits);
 
         btnCreditsBack = findViewById(R.id.btnCreditsBack);
-        btnCreditsBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openMainMenu();
-            }
-        });
+        btnCreditsBack.setOnClickListener(view -> openMainMenu());
     }
     public void openMainMenu() {
         Intent intent = new Intent(this, MainMenu.class);

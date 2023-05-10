@@ -19,36 +19,16 @@ public class ModeSelection extends AppCompatActivity {
         setContentView(R.layout.activity_mode_selection);
 
         btnBack = findViewById(R.id.btnBack);
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openMainMenu();
-            }
-        });
+        btnBack.setOnClickListener(view -> openMainMenu());
 
         btnStartEasy = (Button) findViewById(R.id.btnStartEasy);
-        btnStartEasy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openEasyMode();
-            }
-        });
+        btnStartEasy.setOnClickListener(view -> openEasyMode());
 
         btnStartMedium = findViewById(R.id.btnStartMedium);
-        btnStartMedium.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openMediumMode();
-            }
-        });
+        btnStartMedium.setOnClickListener(view -> openMediumMode());
 
         btnStartHard = findViewById(R.id.btnStartHard);
-        btnStartHard.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openHardMode();
-            }
-        });
+        btnStartHard.setOnClickListener(view -> openHardMode());
     }
 
     public void openMainMenu() {

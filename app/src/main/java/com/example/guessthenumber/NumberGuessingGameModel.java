@@ -25,10 +25,6 @@ public class NumberGuessingGameModel {
     }
 
     public static boolean isWholeNumber(double num) {
-        if ((int) num == num) {
-            return true;
-        } else {
-            return false;
-        }
+        return (int) num == num;
     }
 }

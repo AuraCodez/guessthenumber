@@ -18,30 +18,17 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
 
         btnStart = findViewById(R.id.btnStart);
-        btnStart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openModeSelection();
-            }
-        });
+        btnStart.setOnClickListener(view -> openModeSelection());
 
         btnQuit = findViewById(R.id.btnQuit);
-        btnQuit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                moveTaskToBack(true);
-                android.os.Process.killProcess(android.os.Process.myPid());
-                System.exit(1);
-            }
+        btnQuit.setOnClickListener(view -> {
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
         });
 
         btnCredits = findViewById(R.id.btnCredits);
-        btnCredits.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openCredits();
-            }
-        });
+        btnCredits.setOnClickListener(view -> openCredits());
     }
 
     public void openModeSelection() {

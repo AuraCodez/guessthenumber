@@ -24,20 +24,10 @@ public class EasyMode extends AppCompatActivity {
         setContentView(R.layout.activity_easy_mode);
 
         btnEasyBack = findViewById(R.id.btnEasyBack);
-        btnEasyBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openModeSelection();
-            }
-        });
+        btnEasyBack.setOnClickListener(view -> openModeSelection());
 
         btnEasyGuess = findViewById(R.id.btnEasyGuess);
-        btnEasyGuess.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                enterGuess();
-            }
-        });
+        btnEasyGuess.setOnClickListener(view -> enterGuess());
 
         txtEasyGuess = findViewById(R.id.txtEasyGuess);
         lblEasyResponse = findViewById(R.id.lblEasyResponse);
