@@ -11,6 +11,7 @@ import android.widget.Button;
 public class Credits extends AppCompatActivity {
     private Button btnCreditsBack;
     private Button testbtn;
+    private Button testbtn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
